@@ -1,0 +1,11 @@
+eballest@eballest-VirtualBox:~$ git config --global user.name "Edson Ballestas@vbox-ubuntu"
+eballest@eballest-VirtualBox:~$ git config --global user.email "eballestas94@gmail.com"
+eballest@eballest-VirtualBox:~$ git config --global color.ui true
+eballest@eballest-VirtualBox:~$ git config --global core.editor vim
+eballest@eballest-VirtualBox:~$ ssh-keygen -t rsa -C "eballestas94@gmail.com"
+eballest@eballest-VirtualBox:~$ cat /home/eballest/.ssh/id_rsa.pub
+eballest@eballest-VirtualBox:~$ ssh -T git@github.com
+Hi eballestas! You've successfully authenticated, but GitHub does not provide shell access.
+eballest@eballest-VirtualBox:~$ ^C
+eballest@eballest-VirtualBox:~$ 
+
