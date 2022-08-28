@@ -6,7 +6,7 @@
 
 - 💞️ I’m looking to collaborate on devops projects
 
-- 📫 How to reach me linkedin: linkedin.com/eballest or email: eballestas94@gmail.com
+- 📫 How to reach me linkedin: linkedin.com/in/eballest  or email: eballestas94@gmail.com
 
 Contents:
 1. Git and Github war notes
