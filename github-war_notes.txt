@@ -9,3 +9,31 @@ Hi eballestas! You've successfully authenticated, but GitHub does not provide sh
 eballest@eballest-VirtualBox:~$ ^C
 eballest@eballest-VirtualBox:~$ 
 
+
+
+
+
+
+eballest@eballest-VirtualBox:~/Desktop/war_notes$ git init
+initialized empty Git repository in /home/eballest/Desktop/war_notes/.git/
+eballest@eballest-VirtualBox:~/Desktop/war_notes$ git config --global init.defaultBranch main
+eballest@eballest-VirtualBox:~/Desktop/war_notes$ git add .
+eballest@eballest-VirtualBox:~/Desktop/war_notes$ git commit
+[master (root-commit) 2bdecae] adding git war notes
+ 1 file changed, 11 insertions(+)
+ create mode 100644 github-war_notes.txt
+eballest@eballest-VirtualBox:~/Desktop/war_notes$ 
+eballest@eballest-VirtualBox:~/Desktop/war_notes$ git remote add origin https://github.com/eballestas/warnotes.git
+eballest@eballest-VirtualBox:~/Desktop/war_notes$ git remote -v
+origin	https://github.com/eballestas/warnotes.git (fetch)
+origin	https://github.com/eballestas/warnotes.git (push)
+eballest@eballest-VirtualBox:~/Desktop/war_notes$ git push origin master
+Username for 'https://github.com': eballestas
+Password for 'https://eballestas@github.com': 
+remote: Support for password authentication was removed on August 13, 2021.
+remote: Please see https://docs.github.com/en/get-started/getting-started-with-git/about-remote-repositories#cloning-with-https-urls for information on currently recommended modes of authentication.
+fatal: Authentication failed for 'https://github.com/eballestas/warnotes.git/'
+eballest@eballest-VirtualBox:~/Desktop/war_notes$ git push origin master
+eballest@eballest-VirtualBox:~/Desktop/war_notes$ git remote remove origin
+eballest@eballest-VirtualBox:~/Desktop/war_notes$ git remote add origin git@github.com:eballestas/warnotes.git
+
